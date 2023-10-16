@@ -46,7 +46,7 @@ var User = /** @class */ (function () {
     };
     ;
     User.prototype.changeToPenalized = function () {
-        if (this.scoring > 5)
+        if (this.scoring > 20)
             this.isPenalized = true;
     };
     ;
